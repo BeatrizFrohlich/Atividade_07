@@ -1,4 +1,4 @@
-function SomarNumeros(){
+function atividade01(){
     let soma = 0;
     let continuar = true;
 
@@ -20,4 +20,4 @@ function SomarNumeros(){
     alert("A Soma dos numeros é:" + soma);
 }
 
-SomarNumeros();
+//atividade01();
