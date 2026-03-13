@@ -61,3 +61,21 @@ function atividade03(){
 }
 
 //atividade03()
+
+function atividade04(){
+   let numeros = [];
+
+    for (let i = 1; i <= 4; i++) {
+    let valor = parseInt(prompt("Digite o " + i + "º número inteiro:"));
+    numeros.push(valor);
+    }
+
+    numeros.sort(function(a, b) {
+    return b - a;
+    });
+
+    console.log("Números em ordem decrescente:");
+    console.log(numeros); 
+}
+
+//atividade04()
