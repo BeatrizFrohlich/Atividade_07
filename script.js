@@ -105,4 +105,18 @@ function atividade05(){
 
 }
 
-atividade05()
+//atividade05()
+
+function atividade06(){
+    let letra = prompt("Digite uma letra do alfabeto:");
+
+    console.log("Letra digitada:", letra);
+
+    if (letra === "a" || letra === "A" || letra === "e" || letra === "E" || letra === "i" || letra === "I" || letra === "o" || letra === "O" || letra === "u" || letra === "U") {
+        console.log("A letra", letra, "é uma VOGAL");
+    } else {
+        console.log("A letra", letra, "é uma CONSOANTE");
+    }
+}
+
+//atividade06()
