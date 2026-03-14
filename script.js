@@ -161,3 +161,34 @@ function atividade07(){
 }
 
 //atividade07()
+
+function atividade08(){
+    let num1 = parseInt(prompt("Digite o primeiro número inteiro:"));
+    let num2 = parseInt(prompt("Digite o segundo número inteiro:"));
+
+    console.log("Primeiro número:", num1);
+    console.log("Segundo número:", num2);
+
+    let diferenca = num1 - num2;
+    console.log("Diferença:", num1, "-", num2, "=", diferenca);
+
+    let dobro = 2 * num1;
+    console.log("Dobro do primeiro número:", "2 *", num1, "=", dobro);
+
+    let triplo = 3 * num2;
+    console.log("Triplo do segundo número:", "3 *", num2, "=", triplo);
+
+    let soma = dobro + triplo;
+    console.log("Soma do dobro do primeiro com o triplo do segundo:", dobro, "+", triplo, "=", soma);
+
+    let multiplicacao = num1 * num2;
+    console.log("Multiplicação:", num1, "*", num2, "=", multiplicacao);
+
+    console.log( "Resultado");
+    console.log("Diferença:", diferenca);
+    console.log("Dobro do primeiro + triplo do segundo:", soma);
+    console.log("Multiplicação:", multiplicacao);
+
+}
+
+//atividade08()
