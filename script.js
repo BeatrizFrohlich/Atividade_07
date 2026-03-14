@@ -79,3 +79,30 @@ function atividade04(){
 }
 
 //atividade04()
+
+function atividade05(){
+    let numero = parseInt(prompt("Digite um número inteiro:"));
+
+    console.log("Número digitado:", numero);
+
+    if (numero % 2 === 0) {
+        console.log("O número digitado é PAR");
+
+        numero = numero + 1;
+    } else {
+        console.log("O número digitado é ÍMPAR");
+
+        numero = numero + 1;
+    }
+
+    console.log("Número transformado:", numero);
+
+    if (numero % 2 === 0) {
+        console.log("O número transformado é PAR");
+    } else {
+        console.log("O número transformado é ÍMPAR");
+    }
+
+}
+
+atividade05()
