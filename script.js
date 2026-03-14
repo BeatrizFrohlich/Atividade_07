@@ -120,3 +120,44 @@ function atividade06(){
 }
 
 //atividade06()
+
+function atividade07(){
+    let codigo = prompt(
+    " PICOLÉTERIA \n" +
+    "a - Chocolate - R$ 1,50\n" +
+    "b - Morango - R$ 2,50\n" +
+    "c - Creme - R$ 2,50\n" +
+    "d - Manga - R$ 3,20\n" +
+    "e - Melancia - R$ 3,40\n" +
+    "f - Vanilla Ice - R$ 3,00\n" +
+    "g - Céu Azul - R$ 3,60\n" +
+    "h - Brownie - R$ 4,00\n" +
+    "i - Hawaiano - R$ 5,00\n\n" +
+    "Digite o código do sabor:"
+    );
+
+    if (codigo === "a") {
+        console.log("Sabor: Chocolate | Preço: R$ 1,50");
+    } else if (codigo === "b") {
+        console.log("Sabor: Morango | Preço: R$ 2,50");
+    } else if (codigo === "c") {
+        console.log("Sabor: Creme | Preço: R$ 2,50");
+    } else if (codigo === "d") {
+        console.log("Sabor: Manga | Preço: R$ 3,20");
+    } else if (codigo === "e") {
+        console.log("Sabor: Melancia | Preço: R$ 3,40");
+    } else if (codigo === "f") {
+        console.log("Sabor: Vanilla Ice | Preço: R$ 3,00");
+    } else if (codigo === "g") {
+        console.log("Sabor: Céu Azul | Preço: R$ 3,60");
+    } else if (codigo === "h") {
+        console.log("Sabor: Brownie | Preço: R$ 4,00");
+    } else if (codigo === "i") {
+        console.log("Sabor: Hawaiano | Preço: R$ 5,00");
+    } else {
+        console.log("Código inválido.");
+    }
+
+}
+
+//atividade07()
