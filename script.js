@@ -233,3 +233,32 @@ function atividade10(){
 
 //atividade10()
 
+function atividade11(){
+   let salario = parseFloat(prompt("Digite o salário do funcionário:"));
+    console.log("Salário informado: R$", salario);
+
+    let taxa;
+
+    if (salario <= 1000) {
+        taxa = 0.08;
+    } else if (salario <= 1500) {
+        taxa = 0.085;
+    } else {
+        taxa = 0.09;
+    }
+
+    let desconto = salario * taxa;
+    console.log("Cálculo do desconto:", salario, "*", taxa, "=", desconto);
+
+    let salarioLiquido = salario - desconto;
+    console.log("Cálculo do salário líquido:", salario, "-", desconto, "=", salarioLiquido);
+
+    console.log("Folha de pagamento");
+    console.log("Salário informado: R$", salario);
+    console.log("Taxa de desconto aplicada:", taxa * 100 + "%");
+    console.log("Valor do desconto: R$", desconto);
+    console.log("Salário líquido: R$", salarioLiquido);
+
+}
+
+atividade11()
