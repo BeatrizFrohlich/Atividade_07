@@ -208,4 +208,28 @@ function atividade09(){
 
 }
 
-atividade09()
+//atividade09()
+
+function atividade10(){
+    let nome = prompt("Digite o nome do funcionário:");
+    console.log("Nome do funcionário:", nome);
+
+    let salarioBruto = parseFloat(prompt("Digite o salário bruto:"));
+    console.log("Salário bruto:", salarioBruto);
+
+    let descontoINSS = salarioBruto * 0.08;
+    console.log("Cálculo do desconto do INSS: 8% de", salarioBruto, "=", descontoINSS);
+
+    let salarioLiquido = salarioBruto - descontoINSS;
+    console.log("Cálculo do salário líquido:", salarioBruto, "-", descontoINSS, "=", salarioLiquido);
+
+    console.log(" FOLHA DE PAGAMENTO ");
+    console.log("Funcionário:", nome);
+    console.log("Salário bruto: R$", salarioBruto);
+    console.log("Desconto INSS: R$", descontoINSS);
+    console.log("Salário líquido: R$", salarioLiquido);
+
+}
+
+//atividade10()
+
