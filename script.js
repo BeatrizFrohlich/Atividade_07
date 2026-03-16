@@ -123,36 +123,36 @@ function atividade06(){
 
 function atividade07(){
     let codigo = prompt(
-    " PICOLÉTERIA \n" +
-    "a - Chocolate - R$ 1,50\n" +
-    "b - Morango - R$ 2,50\n" +
-    "c - Creme - R$ 2,50\n" +
-    "d - Manga - R$ 3,20\n" +
-    "e - Melancia - R$ 3,40\n" +
-    "f - Vanilla Ice - R$ 3,00\n" +
-    "g - Céu Azul - R$ 3,60\n" +
-    "h - Brownie - R$ 4,00\n" +
-    "i - Hawaiano - R$ 5,00\n\n" +
+    " Picoléteria \n" +
+    "1 - Chocolate - R$ 1,50\n" +
+    "2 - Morango - R$ 2,50\n" +
+    "3 - Creme - R$ 2,50\n" +
+    "4 - Manga - R$ 3,20\n" +
+    "5 - Melancia - R$ 3,40\n" +
+    "6 - Vanilla Ice - R$ 3,00\n" +
+    "7 - Céu Azul - R$ 3,60\n" +
+    "8 - Brownie - R$ 4,00\n" +
+    "9 - Hawaiano - R$ 5,00\n\n" +
     "Digite o código do sabor:"
     );
 
-    if (codigo === "a") {
+    if (codigo === "1") {
         console.log("Sabor: Chocolate | Preço: R$ 1,50");
-    } else if (codigo === "b") {
+    } else if (codigo === "2") {
         console.log("Sabor: Morango | Preço: R$ 2,50");
-    } else if (codigo === "c") {
+    } else if (codigo === "3") {
         console.log("Sabor: Creme | Preço: R$ 2,50");
-    } else if (codigo === "d") {
+    } else if (codigo === "4") {
         console.log("Sabor: Manga | Preço: R$ 3,20");
-    } else if (codigo === "e") {
+    } else if (codigo === "5") {
         console.log("Sabor: Melancia | Preço: R$ 3,40");
-    } else if (codigo === "f") {
+    } else if (codigo === "6") {
         console.log("Sabor: Vanilla Ice | Preço: R$ 3,00");
-    } else if (codigo === "g") {
+    } else if (codigo === "7") {
         console.log("Sabor: Céu Azul | Preço: R$ 3,60");
-    } else if (codigo === "h") {
+    } else if (codigo === "8") {
         console.log("Sabor: Brownie | Preço: R$ 4,00");
-    } else if (codigo === "i") {
+    } else if (codigo === "9") {
         console.log("Sabor: Hawaiano | Preço: R$ 5,00");
     } else {
         console.log("Código inválido.");
